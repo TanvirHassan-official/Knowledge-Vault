@@ -157,18 +157,18 @@ nav .list-links a{
     gap: 44px;
 }
 
+
 .notes .headings{
     padding-top: 68px;
     text-align: center;
+} 
 
-}
-
-.notes .headings h2{
+ .headings h2{
     font-size: 48px;
     font-weight: bold;
 }
 
-.notes .headings p{
+ .headings p{
     padding-top: 16px;
     color: #627382;
     line-height: 20px;
@@ -177,6 +177,7 @@ nav .list-links a{
 .notes .cards{
     display: flex;
     justify-content: space-between;
+    border-radius: 8px;
 }
 
 .card1, 
@@ -236,3 +237,33 @@ nav .list-links a{
     line-height: 20px;
     color: #627382;
 }
+.brain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+.brain-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-right: 20px;
+}
+
+.ul1 {
+    list-style: none;
+}
+
+.ul1 li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px;
+}
+.brain-image{
+    max-width: 600px;
+    border-radius: 12px;
+    
+}
+
+
