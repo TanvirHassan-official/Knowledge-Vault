@@ -13,8 +13,17 @@
     font-weight: 600;
     color: white;
     background-color: #30b868;
+    
 }
 
+.secondary-btn{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+    background-color: greenyellow;
+}
 
 nav{
     margin: 16px 120px;
@@ -36,4 +45,194 @@ nav .list-links a{
     color: black;
     opacity: 90%;
     line-height: 152%;
+}
+
+
+/* hero */
+
+.hero{
+    max-width: 1600px;
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 120px 134px;
+    align-items: center;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.hero-container h1{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 770px;
+    color: white;
+    opacity: 90%;
+}
+
+.green-text{
+    color: #30b868;
+}
+
+.hero-container .para{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: white;
+}
+
+.early-access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 229px;
+    gap: 6px;
+    background-color: white;
+    border-radius: 1000px;
+    padding: 8px 12px;
+}
+
+.early-access p{
+    color: #30b868;
+}
+
+.circles {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+/* took hint */
+.circle1,  
+.circle2,  
+.circle3  {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle1 {
+  background: #30b868;
+  top: 0;
+  left: 0;
+  opacity: 20%;
+}
+
+.circle2 {
+  background: #30b868;
+  height: 12px;
+  width: 12px;
+  top: 2px;
+  left: 2px;
+  opacity: 40%;
+}
+
+.circle3 {
+  background: #30b868;
+    height: 6px;
+  width: 6px;
+  top: 5px;
+  left: 5px;
+  opacity: 100%;
+}
+
+.hero-btns{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* Notes section  */
+.notes{
+    margin: 0 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.notes .headings{
+    padding-top: 68px;
+    text-align: center;
+
+}
+
+.notes .headings h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.notes .headings p{
+    padding-top: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+.notes .cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1, 
+.card2, 
+.card3, 
+.card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+
+}
+
+.card1 .image1, 
+.card2 .image2, 
+.card3 .image3, 
+.card4 .image4{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+    
+}
+
+
+.card1 .image1 img, 
+.card2 .image2 img, 
+.card3 .image3 img, 
+.card4 .image4 img{
+    
+    width: 32px;
+    height: 32px;
+    padding: 2.5px 5.5px;
+    margin: 14px;
+    
+}
+
+.card1 h6, 
+.card2 h6, 
+.card3 h6, 
+.card4 h6{
+    font-size: 22px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card1 p, 
+.card2 p, 
+.card3 p, 
+.card4 p{
+    text-align: center;
+    line-height: 20px;
+    color: #627382;
 }
