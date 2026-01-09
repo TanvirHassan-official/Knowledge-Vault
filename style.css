@@ -13,16 +13,37 @@
     font-weight: 600;
     color: white;
     background-color: #30b868;
+    cursor: pointer;
     
+}
+.primary-btn:hover{
+    padding: 12px 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    cursor: pointer;
 }
 
 .secondary-btn{
     padding: 12px 16px;
-    border: none;
+    border: 1px solid white;
     border-radius: 4px;
     font-weight: 600;
     color: white;
-    background-color: greenyellow;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.secondary-btn:hover{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    cursor: pointer;
 }
 
 nav{
@@ -172,6 +193,7 @@ nav .list-links a{
     padding-top: 16px;
     color: #627382;
     line-height: 20px;
+    
 }
 
 .notes .cards{
@@ -189,7 +211,7 @@ nav .list-links a{
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 20px;
+    padding: 24px;
 
 }
 
@@ -237,11 +259,15 @@ nav .list-links a{
     line-height: 20px;
     color: #627382;
 }
+
+/* Second brain section */
+
 .brain{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 60px;
+    margin: 120px;
 }
 .brain-info{
     display: flex;
@@ -266,4 +292,57 @@ nav .list-links a{
     
 }
 
+
+
+/* Early access section */
+
+.early-section{
+    margin: 0 120px 120px;
+}
+
+.early{
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F6F2;
+}
+
+.early .titles{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+ .titles h3{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+ .titles p{
+    padding-top: 16px;
+    color: #627382;
+    line-height: 24px;
+    text-align: center;
+    
+}
+.early-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.early-btn p{
+    color: #627382;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* footer  */
 
